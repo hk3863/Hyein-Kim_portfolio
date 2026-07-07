@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aman-Hiss | Hyein Kim</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="trip-sync-page aman-hiss-page">
+    <header class="site-header">
+      <div class="container">
+        <h1 class="site-title"><a href="./index.html">Hyein Kim</a></h1>
+        <span class="mobile-menu" id="mobile-menu">&#8801;</span>
+        <nav class="site-nav">
+          <ul class="menu" id="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./inspirations.html">Inspirations</a></li>
+            <li><a class="active" href="./work.html">Work</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-section trip-sync-main">
+      <section class="project-hero container">
+        <div class="project-hero-copy">
+          <p class="archive-hero-label">Build archive / assistive prototype / 2026</p>
+          <h2>Aman-Hiss</h2>
+          <p class="project-hero-summary">
+            A wearable assistive badge and companion app that translates
+            approaching movement and nearby danger into tactile alerts.
+          </p>
+          <p class="project-hero-text">
+            What I like about this project is how clearly it shows my thinking
+            process. We started inside a much wider accessibility research
+            space, exploring communication barriers, cognitive overload, and
+            support systems for People of Determination in the UAE. The final
+            concept got stronger when we stopped trying to solve everything and
+            focused on one urgent moment of awareness that could be made
+            passive, discreet, and buildable.
+          </p>
+
+          <dl class="project-hero-facts">
+            <div>
+              <dt>Role</dt>
+              <dd>Research, concept framing, interaction logic</dd>
+            </div>
+            <div>
+              <dt>Build</dt>
+              <dd>Wearable badge + mobile vibration feedback</dd>
+            </div>
+            <div>
+              <dt>Context</dt>
+              <dd>NMSS Universal Design for Inclusion Program, UAE</dd>
+            </div>
+          </dl>
+
+          <div class="project-hero-links">
+            <a
+              class="archive-primary-link"
+              href="https://github.com/hk3863/nmss"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View GitHub repo
+            </a>
+            <a
+              class="archive-secondary-link"
+              href="https://youtu.be/qGV4Sxx8XmA"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Watch demo
+            </a>
+            <a
+              class="archive-secondary-link"
+              href="https://youtu.be/G4_th9_RFPA"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Watch presentation
+            </a>
+          </div>
+        </div>
+
+        <div class="project-hero-media">
+          <figure class="project-hero-frame project-hero-frame-wide">
+            <img
+              src="./img/work/aman-hiss/aman-hiss-cover.png"
+              alt="Aman-Hiss smart badge concept showing the badge components and the connected wristband"
+              loading="eager"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="project-layout container">
+        <aside class="project-sidebar">
+          <a class="project-back-link" href="./work.html">Back to work</a>
+          <p class="project-sidebar-label">Archive index</p>
+          <nav class="project-sidebar-nav" aria-label="Aman-Hiss sections">
+            <a href="#overview">Overview</a>
+            <a href="#research">Research and early directions</a>
+            <a href="#reframing">Reframing the opportunity</a>
+            <a href="#system">System design</a>
+            <a href="#demo">Demo and walkthrough</a>
+            <a href="#reflection">Reflection</a>
+          </nav>
+          <p class="archive-margin-note">
+            The most useful lesson here was learning when research should cut
+            the scope down. The final concept improved once the team stopped
+            adding complexity and chose one moment where passive assistance
+            could matter immediately.
+          </p>
+        </aside>
+
+        <div class="project-content">
+          <section class="project-section" id="overview">
+            <div class="project-section-header">
+              <span>01</span>
+              <h3>Overview</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                Aman-Hiss is a wearable assistive concept submitted to the NMSS
+                Universal Design for Inclusion Program. The final proposal is a
+                small badge worn at the back of the body, paired with a phone,
+                that quietly monitors what is happening behind the wearer and
+                communicates risk through vibration.
+              </p>
+              <p>
+                The final target user was someone who cannot rely on hearing to
+                notice approaching people, vehicles, or sudden nearby danger.
+                What made the concept feel compelling was that it did not ask
+                the user to keep checking a screen, wear something visually
+                intrusive, or constantly turn around to feel safe.
+              </p>
+            </div>
+          </section>
+
+          <section class="project-section" id="research">
+            <div class="project-section-header">
+              <span>02</span>
+              <h3>Research and early directions</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                The project did not start with the badge. It began with a much
+                wider research scan across communication and cognition. Our
+                early notes focused on multiple sclerosis, speech difficulty,
+                word-finding issues, fatigue, interruptions, and the way too
+                much decision-making can make even simple tasks harder to
+                complete.
+              </p>
+              <p>
+                That research pushed us toward ideas like planning support,
+                step-level feedback, gamification, and easier re-entry after a
+                task is interrupted. Those concepts were useful because they
+                exposed a core principle: if a support system adds more reading,
+                more typing, or more attention management, it can become one
+                more burden instead of real help.
+              </p>
+            </div>
+
+            <div class="project-screen-grid project-screen-grid-duo">
+              <figure class="project-screen-card">
+                <img
+                  src="./img/work/aman-hiss/aman-hiss-step-feedback.png"
+                  alt="Research notes proposing step-level feedback for people with cognitive fatigue and interruptions"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <p class="project-insight-label">Early direction</p>
+                  <p>
+                    One strong idea was reframing progress at the level of tiny
+                    recoverable actions instead of all-or-nothing task
+                    completion.
+                  </p>
+                </figcaption>
+              </figure>
+
+              <figure class="project-screen-card">
+                <img
+                  src="./img/work/aman-hiss/aman-hiss-decision-notes.png"
+                  alt="Planning notes about reducing decision burden, minimizing distraction, and supporting easy re-entry"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <p class="project-insight-label">What I was tracking</p>
+                  <p>
+                    My notes centered on reducing decision burden, minimizing
+                    attention shifts, and making it easy to resume after
+                    interruption.
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+          </section>
+
+          <section class="project-section" id="reframing">
+            <div class="project-section-header">
+              <span>03</span>
+              <h3>Reframing the opportunity</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                The breakthrough came when the team stopped treating inclusion
+                as a huge abstract space and started asking which moment needed
+                the clearest intervention. We moved away from a screen-heavy
+                planner direction and toward passive awareness: one signal, one
+                behavior, one immediate safety benefit.
+              </p>
+              <p>
+                That shift made the concept stronger on three levels. First, it
+                lowered the cognitive demand because the user would not need to
+                manage a complex interface in the moment. Second, it created a
+                more urgent and visible use case for the competition. Third, it
+                made the build more realistic inside the time we had, because
+                the interaction logic could stay simple and tactile.
+              </p>
+            </div>
+
+            <div class="project-insight-grid">
+              <article class="project-insight-card">
+                <h4>Passive over demanding</h4>
+                <p>
+                  The concept became better once assistance no longer depended
+                  on constant checking, reading, or explicit input from the
+                  user.
+                </p>
+              </article>
+              <article class="project-insight-card">
+                <h4>One urgent moment</h4>
+                <p>
+                  Narrowing to behind-the-body awareness gave the project a
+                  clearer problem, a clearer interaction, and a clearer build
+                  story.
+                </p>
+              </article>
+              <article class="project-insight-card">
+                <h4>Research still stayed inside it</h4>
+                <p>
+                  Even after the pivot, the earlier research still mattered:
+                  reduce burden, avoid overload, and support safety without
+                  making the product feel demanding.
+                </p>
+              </article>
+            </div>
+
+            <figure class="project-full-media">
+              <img
+                src="./img/work/aman-hiss/aman-hiss-reward-system.png"
+                alt="Early reward-system exploration showing how the team thought about motivation, energy, and small wins"
+                loading="lazy"
+              />
+            </figure>
+          </section>
+
+          <section class="project-section" id="system">
+            <div class="project-section-header">
+              <span>04</span>
+              <h3>System design</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                The GitHub build made the final system very concrete. Aman-Hiss
+                has two parts: the badge hardware and the phone software. The
+                badge uses an LD2410 radar sensor to detect distance to an
+                approaching target, then broadcasts that distance through a BLE
+                connection. On the phone side, a browser-based interface
+                receives the value through Web Bluetooth and translates it into
+                vibration timing.
+              </p>
+              <p>
+                What matters in the interaction is not just detection, but
+                interpretation. The closer the object is, the shorter the
+                vibration interval becomes. In the repo, that logic is
+                expressed as distance multiplied by five milliseconds, creating
+                a tactile signal that feels progressively more urgent instead of
+                simply on or off.
+              </p>
+            </div>
+
+            <div class="project-media-text-split">
+              <figure class="project-full-media">
+                <img
+                  src="./img/work/aman-hiss/aman-hiss-badge-full.png"
+                  alt="Aman-Hiss hardware planning page with a smart badge exploded view and component table"
+                  loading="lazy"
+                />
+              </figure>
+
+              <div class="project-media-text-copy project-prose">
+                <p>
+                  The component planning page helped the build feel real rather
+                  than speculative. It clarified the roles of the controller,
+                  vibration motor, battery, charging module, and the wearable
+                  form itself.
+                </p>
+                <p>
+                  I especially like that this page shows the project as both a
+                  system and a physical object. It is not only an interface. It
+                  is a spatial, embodied interaction that depends on placement,
+                  comfort, discreteness, and quick tactile understanding.
+                </p>
+              </div>
+            </div>
+
+            <div class="project-insight-grid">
+              <article class="project-insight-card">
+                <h4>Sensing</h4>
+                <p>
+                  The badge continuously tracks nearby approach and treats
+                  environmental awareness as background support rather than a
+                  request the user has to make.
+                </p>
+              </article>
+              <article class="project-insight-card">
+                <h4>Connection</h4>
+                <p>
+                  The phone acts as the interpretation layer, pairing with the
+                  badge, handling alerts, and supporting emergency response
+                  when needed.
+                </p>
+              </article>
+              <article class="project-insight-card">
+                <h4>Feedback</h4>
+                <p>
+                  The vibration pattern increases with urgency, so information
+                  is felt progressively instead of arriving as one generic
+                  warning.
+                </p>
+              </article>
+            </div>
+
+            <figure class="project-full-media">
+              <img
+                src="./img/work/aman-hiss/aman-hiss-logic.png"
+                alt="System logic notes describing safety states, distance comparison, and vibration behavior"
+                loading="lazy"
+              />
+            </figure>
+          </section>
+
+          <section class="project-section" id="demo">
+            <div class="project-section-header">
+              <span>05</span>
+              <h3>Demo and walkthrough</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                The demo and presentation are where the concept becomes easiest
+                to understand. They show the pairing flow, the emergency-call
+                support, and the scenario logic behind the badge: an
+                approaching runner or a nearby honk becomes a vibration cue the
+                wearer can react to immediately.
+              </p>
+              <p>
+                Together with the repo, these videos complete the archive entry
+                by showing the project as a research story, a physical build,
+                and a working interaction concept.
+              </p>
+            </div>
+
+            <div class="project-video-grid">
+              <figure class="project-video-card">
+                <iframe
+                  class="project-video-embed"
+                  src="https://www.youtube.com/embed/qGV4Sxx8XmA"
+                  title="Aman-Hiss demo video"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+                <figcaption>
+                  <p class="project-insight-label">Demo video</p>
+                  <p>
+                    A short walkthrough of the interaction and how the concept
+                    behaves in use.
+                  </p>
+                </figcaption>
+              </figure>
+
+              <figure class="project-video-card">
+                <iframe
+                  class="project-video-embed"
+                  src="https://www.youtube.com/embed/G4_th9_RFPA"
+                  title="Aman-Hiss presentation video"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+                <figcaption>
+                  <p class="project-insight-label">Presentation video</p>
+                  <p>
+                    The final presentation that frames the concept, the user
+                    need, and the product logic for the judges.
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+          </section>
+
+          <section class="project-section" id="reflection">
+            <div class="project-section-header">
+              <span>06</span>
+              <h3>Reflection</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                What this project shows best about me is how I use research to
+                narrow a concept until it becomes sharper, calmer, and more
+                buildable. The early work mattered because it let us explore
+                broad inclusion questions, but the final product only became
+                convincing once the scope collapsed into one meaningful moment.
+              </p>
+              <p>
+                I also liked seeing how brainstorming and implementation push
+                each other. The notes helped define the principle, the repo
+                proved the mechanics, and the demo made the experience legible.
+                That relationship between thought process and built behavior is
+                something I want to keep carrying into future work.
+              </p>
+            </div>
+
+            <div class="project-closing-card">
+              <p class="archive-margin-note">
+                The strongest shift was realizing that inclusive design can get
+                better when the product asks less of the user, not more.
+              </p>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/nav.js"></script>
+  </body>
+</html>

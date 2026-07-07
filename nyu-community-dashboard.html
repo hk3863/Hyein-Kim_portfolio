@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NYU Community Dashboard | Hyein Kim</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="trip-sync-page nyu-dashboard-page">
+    <header class="site-header">
+      <div class="container">
+        <h1 class="site-title"><a href="./index.html">Hyein Kim</a></h1>
+        <span class="mobile-menu" id="mobile-menu">&#8801;</span>
+        <nav class="site-nav">
+          <ul class="menu" id="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./inspirations.html">Inspirations</a></li>
+            <li><a class="active" href="./work.html">Work</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-section trip-sync-main">
+      <section class="project-hero container">
+        <div class="project-hero-copy">
+          <p class="archive-hero-label">Design archive / UI prototype / 2026</p>
+          <h2>NYU Community Dashboard</h2>
+          <p class="project-hero-summary">
+            A centralized campus dashboard concept that brings schedules,
+            shuttles, dining, events, and quick links into one responsive NYU
+            home base.
+          </p>
+          <p class="project-hero-text">
+            The project started from a familiar student frustration: essential
+            campus information lives across Albert, Brightspace, NYU Mobile,
+            email, shuttle updates, and separate event pages. I wanted to turn
+            that fragmented routine into one customizable dashboard that feels
+            calm, useful, and personal from the first screen.
+          </p>
+
+          <dl class="project-hero-facts">
+            <div>
+              <dt>Role</dt>
+              <dd>UI designer / prototyper</dd>
+            </div>
+            <div>
+              <dt>Focus</dt>
+              <dd>Information hierarchy, personalization, responsive layout</dd>
+            </div>
+            <div>
+              <dt>Output</dt>
+              <dd>Desktop + mobile dashboard concept for NYU students</dd>
+            </div>
+          </dl>
+
+          <div class="project-hero-links">
+            <a
+              class="archive-primary-link"
+              href="https://www.figma.com/design/Z06vNvXeSSmk0LYCvtwoRq/HyeinKim_Project2?node-id=0-1&t=ES87d79rXiyabuf8-1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open Figma file
+            </a>
+            <a class="archive-secondary-link" href="#prototype">Jump to prototype</a>
+          </div>
+        </div>
+
+        <div class="project-hero-media">
+          <figure class="project-hero-frame project-hero-frame-wide">
+            <img
+              src="./img/work/nyu-dashboard/nyu-dashboard-desktop.png"
+              alt="NYU Community Dashboard desktop screen"
+              loading="eager"
+            />
+          </figure>
+          <figure class="project-hero-frame project-hero-frame-phone">
+            <img
+              src="./img/work/nyu-dashboard/nyu-dashboard-mobile.png"
+              alt="NYU Community Dashboard mobile screen"
+              loading="eager"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="project-layout container">
+        <aside class="project-sidebar">
+          <a class="project-back-link" href="./work.html">Back to work</a>
+          <p class="project-sidebar-label">Case study index</p>
+          <nav class="project-sidebar-nav" aria-label="NYU Community Dashboard sections">
+            <a href="#overview">Overview</a>
+            <a href="#problem">Problem and opportunity</a>
+            <a href="#research">Research and ideation</a>
+            <a href="#paper">Paper prototype and feedback</a>
+            <a href="#system">System concept</a>
+            <a href="#prototype">Prototype</a>
+            <a href="#principles">Design principles</a>
+            <a href="#reflection">Reflection</a>
+          </nav>
+          <p class="archive-margin-note">
+            This was one of the projects that made UX feel real to me. I
+            enjoyed testing whether the structure made sense, hearing feedback,
+            and iterating until the interface felt clearer and more useful.
+          </p>
+        </aside>
+
+        <div class="project-content">
+          <section class="project-section" id="overview">
+            <div class="project-section-header">
+              <span>01</span>
+              <h3>Overview</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                NYU Community Dashboard is a UI prototype for students who
+                routinely jump across multiple campus tools just to answer
+                simple daily questions: What classes do I have today? When is
+                the next shuttle? What is open to eat? What events matter to
+                me?
+              </p>
+              <p>
+                Instead of treating the problem as one more student portal, I
+                framed the dashboard as a personal command center. The goal was
+                to reduce switching, surface the right information quickly, and
+                let each student shape the interface around their own routine.
+              </p>
+            </div>
+          </section>
+
+          <section class="project-section" id="problem">
+            <div class="project-section-header">
+              <span>02</span>
+              <h3>Problem and opportunity</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                The starting point was fragmentation. Schedules, course
+                platforms, dining hours, shuttle timing, events, and quick
+                links all existed, but they were distributed across separate
+                systems with different patterns and different levels of
+                urgency.
+              </p>
+              <p>
+                That meant students spent time checking for information rather
+                than using it. The opportunity was not to add more features,
+                but to centralize the everyday layer of campus life into one
+                place that could be scanned in seconds.
+              </p>
+            </div>
+            <figure class="project-full-media">
+              <img
+                src="./img/work/nyu-dashboard/nyu-dashboard-problem.png"
+                alt="Slide outlining the fragmented campus information problem and the dashboard solution"
+                loading="lazy"
+              />
+            </figure>
+          </section>
+
+          <section class="project-section" id="research">
+            <div class="project-section-header">
+              <span>03</span>
+              <h3>Research and ideation</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                Before I designed the interface, I looked at how students
+                already stitched together their NYU routines. The process was
+                simple but revealing: interview notes from real tool usage, and
+                then a small competitive scan of university dashboards to see
+                what felt useful, what felt outdated, and what was still
+                missing.
+              </p>
+              <p>
+                That process pushed the concept in a clear direction. The
+                product needed to reduce switching between tools, bring the most
+                time-sensitive information closer to the surface, and let people
+                customize the dashboard around how they actually move through
+                campus.
+              </p>
+            </div>
+
+            <div class="project-research-layout">
+              <section class="project-research-panel" aria-labelledby="nyu-research-interview">
+                <p class="project-insight-label">Method 01</p>
+                <h4 id="nyu-research-interview">Interview notes</h4>
+
+                <article class="project-research-row">
+                  <p class="project-insight-label">Finding 01</p>
+                  <div>
+                    <h5>Shuttle tracking was the clearest pain point.</h5>
+                    <p>
+                      The student I interviewed already used Passio GO for the
+                      NYU shuttle, but described it as inconvenient and
+                      UI-unfriendly. Real-time information mattered, but the
+                      current experience made checking it feel frustrating.
+                    </p>
+                  </div>
+                </article>
+
+                <article class="project-research-row">
+                  <p class="project-insight-label">Finding 02</p>
+                  <div>
+                    <h5>Daily scheduling had already moved to Google Calendar.</h5>
+                    <p>
+                      Instead of relying on Albert for everyday reference, the
+                      schedule had been exported into Google Calendar. That
+                      showed me students were already building their own smoother
+                      system when official tools did not support daily use well.
+                    </p>
+                  </div>
+                </article>
+
+                <article class="project-research-row">
+                  <p class="project-insight-label">Finding 03</p>
+                  <div>
+                    <h5>Email was official, but hard to scan.</h5>
+                    <p>
+                      Important announcements, deadlines, and institutional
+                      updates existed, but they were buried inside noisy email
+                      flows that were not optimized for quick campus check-ins.
+                    </p>
+                  </div>
+                </article>
+
+                <article class="project-research-row">
+                  <p class="project-insight-label">Finding 04</p>
+                  <div>
+                    <h5>Opportunities felt scattered and easy to miss.</h5>
+                    <p>
+                      Research, jobs, and extracurricular events were all things
+                      the student cared about, but there was no clear central
+                      feed for finding them in one place.
+                    </p>
+                  </div>
+                </article>
+              </section>
+
+              <section class="project-research-panel" aria-labelledby="nyu-research-competitive">
+                <p class="project-insight-label">Method 02</p>
+                <h4 id="nyu-research-competitive">Competitive analysis</h4>
+
+                <article class="project-research-row">
+                  <p class="project-insight-label">Reference 01</p>
+                  <div>
+                    <h5>MyUCLA proved the value of one unified view.</h5>
+                    <p>
+                      Its strongest idea was putting news, events, schedule, and
+                      other student information in one place. Its main weakness
+                      was density. Everything was there, but the first glance
+                      felt heavy.
+                    </p>
+                  </div>
+                </article>
+
+                <article class="project-research-row">
+                  <p class="project-insight-label">Reference 02</p>
+                  <div>
+                    <h5>Trident's quadrant structure was intuitive, but dated.</h5>
+                    <p>
+                      I liked how quickly it separated classes, news, tools, and
+                      help. At the same time, the heavy borders, clipart-like
+                      icons, and old visual rhythm made it feel stuck in an
+                      earlier web pattern.
+                    </p>
+                  </div>
+                </article>
+
+                <article class="project-research-row">
+                  <p class="project-insight-label">Reference 03</p>
+                  <div>
+                    <h5>Squiz was cleaner, but still incomplete.</h5>
+                    <p>
+                      Its layout felt more organized and balanced, but it still
+                      lacked the most relevant needs from the interview: stronger
+                      assignment context, shuttle tracking, and a better
+                      opportunity feed.
+                    </p>
+                  </div>
+                </article>
+
+                <article class="project-research-row">
+                  <p class="project-insight-label">Direction</p>
+                  <div>
+                    <h5>What I carried forward</h5>
+                    <p>
+                      I wanted the clarity of a modular dashboard without the
+                      visual heaviness or content gaps I saw elsewhere. That
+                      became the basis for the final widget-based system.
+                    </p>
+                  </div>
+                </article>
+              </section>
+            </div>
+          </section>
+
+          <section class="project-section" id="paper">
+            <div class="project-section-header">
+              <span>04</span>
+              <h3>Paper prototype and feedback</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                I translated the dashboard into a quick paper prototype before
+                refining the interface digitally. That made it easier to test
+                structure, priorities, and whether the screen already felt
+                useful without relying on visual polish.
+              </p>
+            </div>
+
+            <div class="project-media-text-split">
+              <figure class="project-full-media">
+                <img
+                  src="./img/work/nyu-dashboard/nyu-dashboard-testing-crop.png"
+                  alt="Paper dashboard prototype used for feedback and early testing"
+                  loading="lazy"
+                />
+              </figure>
+
+              <div class="project-prose project-media-text-copy">
+                <p>
+                  Testing with two users confirmed that customization was one of
+                  the strongest parts of the concept. Choosing widgets made the
+                  dashboard feel more personal and more useful right away.
+                </p>
+                <p>
+                  The main weakness was clickability. Some buttons and links
+                  felt too quiet, so the next version focused on making actions
+                  easier to recognize at a glance.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="project-section" id="system">
+            <div class="project-section-header">
+              <span>05</span>
+              <h3>System concept</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                Once the process clarified what students actually needed, the
+                final system direction became more focused: one home screen,
+                modular widgets, and a responsive structure that could adapt
+                from desktop overview to mobile check-in. Personalization was
+                treated as part of the product logic, not just a preference
+                layer.
+              </p>
+              <p>
+                The widget system let the dashboard stay broad enough for campus
+                life without becoming visually overloaded. Students could opt
+                into what mattered most to them and ignore the rest, while the
+                layout still kept the overall interface organized.
+              </p>
+            </div>
+            <figure class="project-full-media">
+              <img
+                src="./img/work/nyu-dashboard/nyu-dashboard-features.png"
+                alt="Slide listing the dashboard's key features including widgets, responsiveness, and real-time information"
+                loading="lazy"
+              />
+            </figure>
+          </section>
+
+          <section class="project-section" id="prototype">
+            <div class="project-section-header">
+              <span>06</span>
+              <h3>Selected prototype moments</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                The final prototype focused on the moments that carry the
+                concept best: setup, everyday dashboard use, and later
+                customization. Together they show how the dashboard moves from
+                generic campus information to a personal daily tool.
+              </p>
+            </div>
+
+            <div class="project-screen-grid project-screen-grid-showcase">
+              <figure class="project-screen-card project-screen-card-secondary">
+                <img
+                  src="./img/work/nyu-dashboard/nyu-dashboard-onboarding.png"
+                  alt="NYU Community Dashboard onboarding and widget selection screens"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <p class="project-insight-label">Onboarding</p>
+                  <p>Students choose the widgets that match how they move through campus.</p>
+                </figcaption>
+              </figure>
+
+              <figure class="project-screen-card project-screen-card-featured">
+                <img
+                  src="./img/work/nyu-dashboard/nyu-dashboard-prototype-dashboard.png"
+                  alt="NYU Community Dashboard main dashboard screen from the Figma prototype"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <p class="project-insight-label">Dashboard</p>
+                  <p>The main dashboard brings class schedule, events, transit, dining, and resources into one daily view.</p>
+                </figcaption>
+              </figure>
+
+              <figure class="project-screen-card project-screen-card-secondary">
+                <img
+                  src="./img/work/nyu-dashboard/nyu-dashboard-settings.png"
+                  alt="NYU Community Dashboard settings and customization screens"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <p class="project-insight-label">Settings</p>
+                  <p>Customization stays available later, so the system can keep changing with the student.</p>
+                </figcaption>
+              </figure>
+            </div>
+          </section>
+
+          <section class="project-section" id="principles">
+            <div class="project-section-header">
+              <span>07</span>
+              <h3>Design principles</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                The visual system stayed intentionally restrained. I used NYU
+                violet, straight dividers, white space, and clear typography so
+                the interface felt institutional but still calm. The strongest
+                principle was efficiency: show more context without making the
+                screen feel busy.
+              </p>
+            </div>
+            <figure class="project-full-media">
+              <img
+                src="./img/work/nyu-dashboard/nyu-dashboard-principles.png"
+                alt="Slide describing the project's principles: simple, accessible, and efficient"
+                loading="lazy"
+              />
+            </figure>
+          </section>
+
+          <section class="project-section" id="reflection">
+            <div class="project-section-header">
+              <span>08</span>
+              <h3>Reflection</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                This was one of my first UI-focused UX projects, and it made me
+                realize how much I enjoy validating an idea, refining it
+                through feedback, and iterating until the structure feels
+                obvious. The process taught me that interface design is not
+                just about arranging content beautifully. It is about deciding
+                what deserves to be seen first.
+              </p>
+              <p>
+                Looking back, the most valuable part was seeing how each step
+                changed the concept: the interview sharpened the problem, the
+                competitive analysis clarified what to avoid, and the paper
+                prototype made weak affordances visible before I invested too
+                much in polish.
+              </p>
+              <p>
+                If I continued the project, I would test the dashboard with
+                students from different schools and routines, push the
+                personalization model further, and explore how the system could
+                adapt across semester, exam, and travel periods.
+              </p>
+            </div>
+
+            <div class="project-closing-card">
+              <p class="archive-margin-note">
+                The project became stronger once the process stopped being
+                about making one more portal and started being about reducing
+                the friction of everyday student life.
+              </p>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/nav.js"></script>
+  </body>
+</html>

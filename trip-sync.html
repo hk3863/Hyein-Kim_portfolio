@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trip Sync | Hyein Kim</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="trip-sync-page">
+    <header class="site-header">
+      <div class="container">
+        <h1 class="site-title"><a href="./index.html">Hyein Kim</a></h1>
+        <span class="mobile-menu" id="mobile-menu">&#8801;</span>
+        <nav class="site-nav">
+          <ul class="menu" id="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./inspirations.html">Inspirations</a></li>
+            <li><a class="active" href="./work.html">Work</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-section trip-sync-main">
+      <section class="project-hero container">
+        <div class="project-hero-copy">
+          <p class="archive-hero-label">Design archive / UX design / 2026</p>
+          <h2>Trip Sync</h2>
+          <p class="project-hero-summary">
+            A group travel app concept shaped through UX research into one
+            question: how do you reduce coordination fatigue when plans, money,
+            and responsibilities are split across too many places?
+          </p>
+          <p class="project-hero-text">
+            I began by looking at how student and friend groups already plan
+            trips across Google Docs, Sheets, Splitwise, chat, maps, and shared
+            albums. That research reframed the opportunity from "another trip
+            planner" into a shared action layer that helps the whole group know
+            what is next, what is owed, and who owns what.
+          </p>
+
+          <dl class="project-hero-facts">
+            <div>
+              <dt>Role</dt>
+              <dd>UX researcher / product designer</dd>
+            </div>
+            <div>
+              <dt>Methods</dt>
+              <dd>Interviews, competitive analysis, critique synthesis</dd>
+            </div>
+            <div>
+              <dt>Audience</dt>
+              <dd>Friend groups + university students traveling together</dd>
+            </div>
+          </dl>
+
+          <div class="project-hero-links">
+            <a
+              class="archive-primary-link"
+              href="https://www.figma.com/design/fu3vc6hC73cWWgWKBSZEIM/Trip-Sync-Final-Presentation?node-id=0-1&t=NZfY3LSe1r8Wo9Cw-1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View presentation
+            </a>
+            <a
+              class="archive-secondary-link"
+              href="https://www.figma.com/design/27NN460b4CmnHdFjb35R6b/Trip-Sync?node-id=0-1&t=dLFBM0jhgZh3p4Qq-1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open prototype
+            </a>
+          </div>
+        </div>
+
+        <div class="project-hero-media">
+          <figure class="project-hero-frame project-hero-frame-primary">
+            <img
+              src="./img/work/trip-sync/trip-sync-home.png"
+              alt="Trip Sync home screen"
+              loading="eager"
+            />
+          </figure>
+          <figure class="project-hero-frame project-hero-frame-secondary">
+            <img
+              src="./img/work/trip-sync/trip-sync-expenses.png"
+              alt="Trip Sync expenses screen"
+              loading="eager"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="project-layout container">
+        <aside class="project-sidebar">
+          <a class="project-back-link" href="./work.html">Back to work</a>
+          <p class="project-sidebar-label">Case study index</p>
+          <nav class="project-sidebar-nav" aria-label="Trip Sync sections">
+            <a href="#overview">Overview</a>
+            <a href="#problem">Problem</a>
+            <a href="#research">Research insights</a>
+            <a href="#process">Process</a>
+            <a href="#iteration">Critique and iteration</a>
+            <a href="#prototype">Prototype</a>
+            <a href="#reflection">Reflection</a>
+          </nav>
+          <p class="archive-margin-note">
+            This was my first UX design project, and I really enjoyed the
+            process of validating ideas, getting feedback, and iterating the
+            product as the thinking became clearer.
+          </p>
+        </aside>
+
+        <div class="project-content">
+          <section class="project-section" id="overview">
+            <div class="project-section-header">
+              <span>01</span>
+              <h3>Overview</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                Trip Sync is a mobile UX concept for friend groups and
+                university students planning trips together. The project asks
+                how a product can lower coordination friction by connecting
+                itinerary, balances, responsibilities, and memory-making in one
+                shared flow.
+              </p>
+              <p>
+                The work started with research, not screens. I wanted to
+                understand where group travel breaks down, who absorbs the
+                invisible labor of coordinating everyone else, and what kind of
+                interface could reduce that burden instead of adding one more
+                place to check.
+              </p>
+            </div>
+          </section>
+
+          <section class="project-section" id="problem">
+            <div class="project-section-header">
+              <span>02</span>
+              <h3>The problem</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                Group travel planning already has tools, but the workflow is
+                fragmented. Itineraries live in Google Docs or Sheets, expenses
+                in Splitwise, communication in messaging apps, locations in
+                maps, and memories in shared albums. That setup works until the
+                group needs quick coordination in the moment.
+              </p>
+              <p>
+                The research framing became clearer very quickly: the real
+                problem is not a lack of travel information. It is the absence
+                of a unified coordination layer. When the state of the trip is
+                scattered, people duplicate work, lose confidence in what is
+                final, and fall back on one organizer to keep everything
+                aligned.
+              </p>
+            </div>
+            <figure class="project-full-media">
+              <img
+                src="./img/work/trip-sync/trip-sync-problem.png"
+                alt="Trip Sync problem framing slide"
+                loading="lazy"
+              />
+            </figure>
+          </section>
+
+          <section class="project-section" id="research">
+            <div class="project-section-header">
+              <span>03</span>
+              <h3>Research insights</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                The research phase combined exploratory and qualitative methods
+                to understand what happens before and during a group trip. I
+                focused less on feature wish lists and more on actual behaviors:
+                where people lose track, where roles become uneven, and where
+                trust breaks down.
+              </p>
+            </div>
+
+            <div class="project-research-layout">
+              <section class="project-research-panel" aria-labelledby="research-methods">
+                <p class="project-insight-label">Methods</p>
+                <h4 id="research-methods">How I researched the problem</h4>
+
+                <article class="project-research-row">
+                  <p class="project-insight-label">Method 01</p>
+                  <div>
+                    <h5>Semi-structured interviews</h5>
+                    <p>
+                      I centered conversations around friends and students who
+                      had recently planned group trips, especially people who
+                      often become the informal organizer.
+                    </p>
+                  </div>
+                </article>
+
+                <article class="project-research-row">
+                  <p class="project-insight-label">Method 02</p>
+                  <div>
+                    <h5>Competitive analysis</h5>
+                    <p>
+                      I looked at tools such as Splitwise, Google Docs, Sheets,
+                      and collaborative planning apps to understand what each
+                      one does well and where coordination starts to fragment.
+                    </p>
+                  </div>
+                </article>
+
+                <article class="project-research-row">
+                  <p class="project-insight-label">Method 03</p>
+                  <div>
+                    <h5>Concept validation</h5>
+                    <p>
+                      Early scenarios and wireframes helped me test which
+                      features actually mattered and which ideas were
+                      unnecessary in an integrated trip experience.
+                    </p>
+                  </div>
+                </article>
+
+                <article class="project-research-row">
+                  <p class="project-insight-label">Research focus</p>
+                  <div>
+                    <h5>What I needed to learn</h5>
+                    <p>
+                      I was trying to map friction across planning versus live
+                      travel, understand how responsibilities are distributed,
+                      and identify what information groups struggle to keep
+                      synchronized.
+                    </p>
+                  </div>
+                </article>
+              </section>
+
+              <section class="project-research-panel" aria-labelledby="research-findings">
+                <p class="project-insight-label">Findings</p>
+                <h4 id="research-findings">What the research clarified</h4>
+
+                <article class="project-research-row">
+                  <p class="project-insight-label">Insight 01</p>
+                  <div>
+                    <h5>The real pain is coordination fatigue.</h5>
+                    <p>
+                      Existing tools store information, but they do not reduce
+                      the mental load of holding plans, money, roles, and
+                      updates together across a group.
+                    </p>
+                  </div>
+                </article>
+
+                <article class="project-research-row">
+                  <p class="project-insight-label">Insight 02</p>
+                  <div>
+                    <h5>Users need to know what is next first.</h5>
+                    <p>
+                      Before anyone needs a full archive of trip content, they
+                      need quick visibility into the next stop, deadline, or
+                      task that requires attention.
+                    </p>
+                  </div>
+                </article>
+
+                <article class="project-research-row">
+                  <p class="project-insight-label">Insight 03</p>
+                  <div>
+                    <h5>Shared money needs explicit language.</h5>
+                    <p>
+                      Expense features only feel useful when the balance state
+                      is transparent. Ambiguous wording makes people less
+                      confident about who owes what.
+                    </p>
+                  </div>
+                </article>
+
+                <article class="project-research-row">
+                  <p class="project-insight-label">Insight 04</p>
+                  <div>
+                    <h5>The organizer should not be the system.</h5>
+                    <p>
+                      In many groups, one person becomes the bottleneck because
+                      updates and responsibilities are not visible enough to be
+                      shared across everyone else.
+                    </p>
+                  </div>
+                </article>
+              </section>
+            </div>
+          </section>
+
+          <section class="project-section" id="process">
+            <div class="project-section-header">
+              <span>04</span>
+              <h3>Process and design direction</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                Once the research made the problem sharper, the project moved
+                from a broad group travel idea into a product system with
+                connected surfaces for trips, itinerary, balances, tasks,
+                photos, and activity. The process was less about adding more
+                features and more about tightening the hierarchy around the
+                moments of highest coordination pressure.
+              </p>
+              <p>
+                The early prototype already covered the main trip management
+                flows, but critique showed that completeness was not enough. I
+                had to decide what should be visible first, what could remain
+                secondary, and how the product could feel lightweight during an
+                active trip instead of heavy or administrative.
+              </p>
+            </div>
+
+            <div class="project-principle-grid">
+              <article class="project-principle-card">
+                <h4>Mapped the fragmented workflow</h4>
+                <p>
+                  I started by tracing how users already move across chat,
+                  shared documents, payment tools, and memory apps while trying
+                  to keep one trip together.
+                </p>
+              </article>
+
+              <article class="project-principle-card">
+                <h4>Defined the core product surfaces</h4>
+                <p>
+                  Trips, itinerary, split, tasks, photos, and activity were
+                  treated as connected layers of one system rather than isolated
+                  features.
+                </p>
+              </article>
+
+              <article class="project-principle-card">
+                <h4>Built for shared action, not storage</h4>
+                <p>
+                  The key shift was designing around the next important action
+                  instead of treating the app as a passive place to store trip
+                  details.
+                </p>
+              </article>
+
+              <article class="project-principle-card">
+                <h4>Used critique to sharpen the hierarchy</h4>
+                <p>
+                  Feedback helped me identify which parts felt product-like and
+                  which parts still behaved like disconnected screens rather
+                  than one clear experience.
+                </p>
+              </article>
+            </div>
+
+            <div class="project-prose">
+              <p>
+                Three principles carried the rest of the design work: make the
+                next important action visible first, keep itinerary / balances /
+                tasks connected as shared context, and use language that feels
+                clear immediately on a mobile screen.
+              </p>
+            </div>
+          </section>
+
+          <section class="project-section" id="iteration">
+            <div class="project-section-header">
+              <span>05</span>
+              <h3>Critique and iteration</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                Critique was the most valuable part of the process because it
+                exposed where the prototype was organized, but not yet
+                product-like. The strongest feedback pushed the concept away
+                from passive browsing and toward shared awareness. Two changes
+                had the biggest impact on the final version.
+              </p>
+            </div>
+
+            <figure class="project-full-media">
+              <img
+                src="./img/work/trip-sync/trip-sync-critique.png"
+                alt="Trip Sync critique slide comparing trips-first and action-first entry points"
+                loading="lazy"
+              />
+            </figure>
+
+            <div class="project-iteration-grid">
+              <article class="project-iteration-card">
+                <p class="project-insight-label">Improvement 01</p>
+                <h4>The first screen changed from trips to action.</h4>
+                <p>
+                  The early version centered the trips list. The revised Home
+                  page shifted the product toward urgency, context, and direct
+                  entry into tasks, balances, and itinerary decisions.
+                </p>
+              </article>
+
+              <article class="project-iteration-card">
+                <p class="project-insight-label">Improvement 02</p>
+                <h4>Expense language became easier to trust.</h4>
+                <p>
+                  Renaming the section from "Who owes who" to "Balances"
+                  increased scannability and made the money state feel more
+                  transparent.
+                </p>
+              </article>
+            </div>
+          </section>
+
+          <section class="project-section" id="prototype">
+            <div class="project-section-header">
+              <span>06</span>
+              <h3>Selected prototype moments</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                Rather than showing every screen, I chose the ones that best
+                support the core story: immediate context, shared planning, and
+                expense clarity.
+              </p>
+            </div>
+
+            <div class="project-screen-grid">
+              <figure class="project-screen-card">
+                <img
+                  src="./img/work/trip-sync/trip-sync-home.png"
+                  alt="Trip Sync home screen"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <p class="project-insight-label">Home</p>
+                  <p>The product opens on the live state of the trip.</p>
+                </figcaption>
+              </figure>
+
+              <figure class="project-screen-card">
+                <img
+                  src="./img/work/trip-sync/trip-sync-itinerary.png"
+                  alt="Trip Sync itinerary screen"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <p class="project-insight-label">Itinerary</p>
+                  <p>Trip context, timing, and next stops stay easy to scan.</p>
+                </figcaption>
+              </figure>
+
+              <figure class="project-screen-card">
+                <img
+                  src="./img/work/trip-sync/trip-sync-expenses.png"
+                  alt="Trip Sync balances and expenses screen"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <p class="project-insight-label">Balances</p>
+                  <p>Language and hierarchy make shared money easier to read.</p>
+                </figcaption>
+              </figure>
+            </div>
+          </section>
+
+          <section class="project-section" id="reflection">
+            <div class="project-section-header">
+              <span>07</span>
+              <h3>Reflection</h3>
+            </div>
+            <div class="project-prose">
+              <p>
+                The biggest lesson from Trip Sync was that UX research can
+                completely change the product story. A prototype can contain
+                the right features and still communicate the wrong starting
+                point if the hierarchy does not reflect how people actually
+                coordinate.
+              </p>
+              <p>
+                If I continued the project, I would run more user testing on
+                the revised Home page and balances flow, add stronger edge-case
+                states like overdue tasks and split conflicts, and keep refining
+                how the product supports both planning before the trip and
+                coordination during it.
+              </p>
+            </div>
+
+            <div class="project-closing-card">
+              <p class="archive-margin-note">
+                Trip Sync became strongest when it shifted from being a place to
+                store travel information to being a product that helps a group
+                act together.
+              </p>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/nav.js"></script>
+  </body>
+</html>

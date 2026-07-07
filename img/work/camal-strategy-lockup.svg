@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 840" fill="none">
+  <g opacity="0.22" stroke="#9B7A56" stroke-width="2">
+    <line x1="120" y1="168" x2="1280" y2="168" />
+    <line x1="120" y1="582" x2="1280" y2="582" />
+    <line x1="860" y1="168" x2="860" y2="582" />
+  </g>
+
+  <text
+    x="120"
+    y="236"
+    fill="#8F5D2D"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="28"
+    font-weight="600"
+    letter-spacing="4"
+  >
+    CAMAL GROUP
+  </text>
+
+  <text
+    x="120"
+    y="374"
+    fill="#3D2A19"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="166"
+    font-weight="700"
+    letter-spacing="-7"
+  >
+    CAMAL
+  </text>
+
+  <text
+    x="120"
+    y="454"
+    fill="#6B4D31"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="54"
+    font-weight="500"
+    letter-spacing="-1"
+  >
+    Content Strategy Internship
+  </text>
+
+  <text
+    x="900"
+    y="264"
+    fill="#8F5D2D"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="22"
+    font-weight="600"
+    letter-spacing="3"
+  >
+    FOCUS
+  </text>
+
+  <text
+    x="900"
+    y="330"
+    fill="#3D2A19"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="38"
+    font-weight="600"
+  >
+    Editorial workflow
+  </text>
+
+  <text
+    x="900"
+    y="388"
+    fill="#3D2A19"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="38"
+    font-weight="600"
+  >
+    Australia SEO strategy
+  </text>
+
+  <text
+    x="900"
+    y="446"
+    fill="#3D2A19"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="38"
+    font-weight="600"
+  >
+    Search-led content systems
+  </text>
+
+  <text
+    x="900"
+    y="536"
+    fill="#6B4D31"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="24"
+    font-weight="500"
+  >
+    Internship archive entry
+  </text>
+</svg>
